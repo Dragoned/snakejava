@@ -37,7 +37,7 @@ class Window extends JFrame{
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);             
 		this.addKeyListener((KeyListener) new KeyboardListener());
 		this.setTitle("Snake");
-		this.setBounds(500, 500, 500, 500);
+		this.setSize(500, 500);
 		this.setVisible(true);
 		gamelogic g=new gamelogic();
 		g.logic();
